@@ -3,3 +3,10 @@
 .hero{
     font-size: 200px;
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile devices */
+    .hero {
+      font-size: 100px;
+    }
+  }

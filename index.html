@@ -61,60 +61,73 @@
            
             <div class="container lg:px-4 lg:mx-auto flex flex-wrap items-center justify-between">
               <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start px-2">
-                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
-                  href="/"><img src="" alt="" class="w-24 lg:w-36"></a>
+                <div class="lg:-mt-8 ml-4 lg:ml-0">
+                    <h1 class="font-bold">Logo</h1>
+                </div>
                   <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                   type="button"
                   onclick="toggleNavbar('example-collapse-navbar')">
                   <i class="text-black fas fa-bars"></i>
                 </button>
               </div>
-              <div class="-mt-8 ml-4 lg:ml-0">
-                <h1 class="font-bold">Logo</h1>
-            </div>
-              <div class="lg:flex flex-grow items-center justify-center bg-white lg:bg-transparent lg:shadow-none hidden h-screen lg:h-0 pb-8" id="example-collapse-navbar">
+              
+              <div class="lg:flex flex-grow items-center justify-center bg-[#6A2F17] lg:bg-transparent lg:shadow-none hidden h-screen lg:h-0 pb-8" id="example-collapse-navbar">
     
                 <div class="flex justify-center items-center lg:selection:py-8">
                         <ul class="lg:flex">
-                            <li class="px-4 text-xl m-4 w-full"><a href="">Home</a></li>
-                            <li class="px-4 text-xl m-4"><a href="" >Location</a></li>
-                            <li class="px-4 text-xl m-4"><a href="" >Training</a></li>
-                            <li class="px-4 text-xl m-4"><a href="" >Projects</a></li>
+                            <li class="px-4 text-xl m-4 w-full text-white lg:text-black"><a href="">Home</a></li>
+                            <li class="px-4 text-xl m-4 text-white lg:text-black"><a href="" >Location</a></li>
+                            <li class="px-4 text-xl m-4 text-white lg:text-black"><a href="" >Training</a></li>
+                            <li class="px-4 text-xl m-4 text-white lg:text-black"><a href="" >Projects</a></li>
                         </ul>
                 </div>
               </div>
               <div class="-mt-8 hidden lg:block">
                 <h1 class="font-bold">get going</h1>
             </div>
+            <div class="w-full h-0.5 rounded bg-[#ececec] mt-4"></div>
             </div>
           </nav>
 
-          <div>
+          <div class="mt-24">
             <p class="text-center text-xl pt-36">Pride of Africa</p>
-            <h1 class="text-center font-bold hero">KENYA</h1>
+            <h1 class="text-center font-bold hero mt-8">KENYA</h1>
           </div>
     </div>
 
     
 
-    <section class="bg-[#6A2F17] ">
+    <section class="bg-[#6A2F17] -mt-8">
         <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <h1 class="text-2xl text-white mb-8">LATEST NEWS & STORIES</h1>
-            <div class="grid grid-cols-3 gap-10">
-                <div class="flex items-center">
-                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6">
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="lg:flex items-center">
+                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6 rounded-2xl">
                     <p class="text-[#C3C3C3]">Kids get funding to go to school in on of the most remote areas of Kenya</p>
                 </div>
-                <div class="flex items-center">
-                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6">
+                <div class="lg:flex items-center">
+                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6 rounded-2xl">
                     <p class="text-[#C3C3C3]">Kids get funding to go to school in on of the most remote areas of Kenya</p>
                 </div>
-                <div class="flex items-center">
-                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6">
+                <div class="lg:flex items-center">
+                    <img src="./assets/6.jpg" alt="" class="w-52 mr-6 rounded-2xl">
                     <p class="text-[#C3C3C3]">Kids get funding to go to school in on of the most remote areas of Kenya</p>
                 </div>
             </div>
+
+
+            <div class="lg:grid grid-cols-2 items-center gap-10 lg:mt-32 lg:py-32 mt-16">
+                <div class="">
+                    <img src="./assets/map.png" alt="" class="w-full">
+                </div>
+                <div class="mt-8">
+                    <h1 class="uppercase text-white text-6xl lg:text-7xl tracking-wide text-center lg:text-left">Operating<br> Locations</h1>
+                    <p class="text-white text-xl text-center lg:text-left">We are located around 20 locations in Kenya</p>
+                </div>
+            </div>
         </div>
+
+        
     </section>
 </body>
 <script>
